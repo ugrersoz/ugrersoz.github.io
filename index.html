@@ -11,25 +11,27 @@
     <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; script-src-attr 'none'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; manifest-src 'self'; connect-src 'none'; object-src 'none'; frame-src 'none'; base-uri 'none'; form-action 'none'; upgrade-insecure-requests">
     <meta name="referrer" content="no-referrer">
 
-    <title>Uğur Ersöz (Ugur Ersoz) — Product Developer &amp; Researcher</title>
+    <title>Ugur Ersoz — Product Developer &amp; Researcher in Berlin</title>
     <meta name="description" content="Uğur Ersöz (Ugur Ersoz), product developer and researcher in Berlin. Projects in genetics, data analysis, and digital health, plus experience and writing.">
     <meta name="author" content="Ugur Ersoz">
-    <meta name="robots" content="index, follow">
+    <meta name="robots" content="index, follow, max-image-preview:large">
     <link rel="canonical" href="https://ugrersoz.github.io/">
 
     <!-- Open Graph -->
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Ugur Ersoz — Portfolio">
-    <meta property="og:title" content="Ugur Ersoz — Product Developer & Researcher">
-    <meta property="og:description" content="Product developer and researcher in life-science engineering and digital health. Berlin, Germany.">
+    <meta property="og:type" content="profile">
+    <meta property="og:site_name" content="Ugur Ersoz">
+    <meta property="og:title" content="Ugur Ersoz — Product Developer &amp; Researcher in Berlin">
+    <meta property="og:description" content="Uğur Ersöz (Ugur Ersoz), product developer and researcher in Berlin. Projects in genetics, data analysis, and digital health, plus experience and writing.">
     <meta property="og:url" content="https://ugrersoz.github.io/">
     <meta property="og:image" content="https://ugrersoz.github.io/images/og-image.jpg">
     <meta property="og:locale" content="en_US">
+    <meta property="profile:first_name" content="Ugur">
+    <meta property="profile:last_name" content="Ersoz">
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Ugur Ersoz — Product Developer & Researcher">
-    <meta name="twitter:description" content="Product developer and researcher in life-science engineering and digital health. Berlin, Germany.">
+    <meta name="twitter:title" content="Ugur Ersoz — Product Developer &amp; Researcher in Berlin">
+    <meta name="twitter:description" content="Uğur Ersöz (Ugur Ersoz), product developer and researcher in Berlin. Projects in genetics, data analysis, and digital health, plus experience and writing.">
     <meta name="twitter:image" content="https://ugrersoz.github.io/images/og-image.jpg">
 
     <!-- Icons & PWA -->
@@ -41,20 +43,42 @@
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "Person",
-      "name": "Ugur Ersoz",
-      "alternateName": ["Uğur Ersöz", "Ugur Ersöz"],
-      "url": "https://ugrersoz.github.io/",
-      "image": "https://ugrersoz.github.io/images/og-image.jpg",
-      "jobTitle": "Product Developer & Researcher",
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Berlin",
-        "addressCountry": "DE"
-      },
-      "sameAs": [
-        "https://github.com/ugrersoz",
-        "https://www.linkedin.com/in/ersozugur"
+      "@graph": [
+        {
+          "@type": "WebSite",
+          "@id": "https://ugrersoz.github.io/#website",
+          "name": "Ugur Ersoz",
+          "alternateName": ["Uğur Ersöz", "Ugur Ersoz Portfolio"],
+          "url": "https://ugrersoz.github.io/",
+          "inLanguage": "en",
+          "publisher": { "@id": "https://ugrersoz.github.io/#person" }
+        },
+        {
+          "@type": "ProfilePage",
+          "@id": "https://ugrersoz.github.io/#profile",
+          "url": "https://ugrersoz.github.io/",
+          "name": "Ugur Ersoz — Product Developer & Researcher in Berlin",
+          "isPartOf": { "@id": "https://ugrersoz.github.io/#website" },
+          "mainEntity": { "@id": "https://ugrersoz.github.io/#person" }
+        },
+        {
+          "@type": "Person",
+          "@id": "https://ugrersoz.github.io/#person",
+          "name": "Ugur Ersoz",
+          "alternateName": ["Uğur Ersöz", "Ugur Ersöz"],
+          "url": "https://ugrersoz.github.io/",
+          "image": "https://ugrersoz.github.io/images/og-image.jpg",
+          "jobTitle": "Product Developer & Researcher",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Berlin",
+            "addressCountry": "DE"
+          },
+          "sameAs": [
+            "https://github.com/ugrersoz",
+            "https://www.linkedin.com/in/ersozugur"
+          ]
+        }
       ]
     }
     </script>
