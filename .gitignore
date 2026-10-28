@@ -65,3 +65,6 @@ versions/
 content-sources.md
 private/
 backups/
+
+# Local font tester copy; replace with a licensed webfont before publication.
+/assets/fonts/dreaming-outloud-sans-regular.woff2

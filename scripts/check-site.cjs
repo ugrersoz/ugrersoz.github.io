@@ -63,3 +63,4 @@ const location = {hash: '#projects', replace(url) {this.destination = url;}};
 vm.runInNewContext(fs.readFileSync('assets/redirect.js', 'utf8'), {location});
 assert.equal(location.destination, 'https://ugrersoz.github.io/#projects');
 console.log('PASS: browser policy, public assets, Google verification, portrait, image previews, focus restoration and legacy redirect.');
+require('./check-i18n.cjs');

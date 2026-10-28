@@ -8,7 +8,7 @@ let previousFocus;
 function openModal(source) {
  previousFocus = document.activeElement;
  modalImage.src = typeof source === 'string' ? source : source.src;
- modalImage.alt = typeof source === 'string' ? 'Certificate preview' : source.alt;
+ modalImage.alt = typeof source === 'string' ? (window.portfolioI18n?.message('certificate') || 'Certificate preview') : source.alt;
  modal.showModal(); document.body.style.overflow = 'hidden';
 }
 function closeModal() { modal.close(); }
